@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="5.6.4">
+    <config>
+        <recursos>Imagenes</recursos>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>FFFF80</corfondo>
+        <corbanda>80FF80</corbanda>
+        <cornavega>80FF80</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <titulo>Animales Salvajes</titulo>
+        <autor>Sebastián Manjarrés</autor>
+        <informe>1</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >Bien</correcto>
+        <incorrecto son="" modo="1" >Incorrecto</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>38</tipo>
+              <imaxe>Portada_2.jpg</imaxe>
+              <forma>0</forma>
+              <texto><![CDATA[
+<p align="left">
+<font color="#080000" face="Arial" size="28">En esta actividad trabajaremos con los animales salvajes.<br>
+<br>
+Bienvenidos.</font></p>
+]]></texto>
+              <cfondo>FFFF80</cfondo>
+              <ctexto>000000</ctexto>
+        </paxina>
+        <paxina id="2" >
+              <tipo>3</tipo>
+              <imaxe>Portada_2.jpg</imaxe>
+              <imfondo  trans="40">Portada_2.jpg</imfondo>
+              <filas>4</filas>
+              <columnas>4</columnas>
+              <reixa>0</reixa>
+            <forma>0</forma>
+        </paxina>
+        <paxina id="3" >
+              <tipo>4</tipo>
+              <modo>2</modo>
+              <sopa enun="Leon.jpeg">leon</sopa>
+              <sopa enun="Tigre.jpg">tigre</sopa>
+              <sopa enun="Oso.jpg">oso</sopa>
+              <sopa enun="hipopotamo.jpg">hipopotamo</sopa>
+              <sopa enun="rinoceronte.jpg">rinoceronte</sopa>
+              <sopa enun="Serpiente.jpg">serpiente</sopa>
+              <sopa enun="Jirafa.jpg">jirafa</sopa>
+              <sopa enun="Gorilla.jpg">gorilla</sopa>
+              <enunciado>0</enunciado>
+              <colorea>0</colorea>
+              <cadro>0</cadro>
+              <fondo>abcdefghijklmnopqrstuvxyz</fondo>
+        </paxina>
+        <paxina id="4" >
+              <tipo>17</tipo>
+              <parellas>Gorilla.jpg</parellas>
+              <parellas>Jirafa.jpg</parellas>
+              <parellas>Leon.jpeg</parellas>
+              <parellas>hipopotamo.jpg</parellas>
+              <parellas>Oso.jpg</parellas>
+              <parellas>rinoceronte.jpg</parellas>
+              <cfondo>FFFF80</cfondo>
+              <ctapa>000000</ctapa>
+              <tempo>60</tempo>
+        </paxina>
+    </libro>
+</lim>
